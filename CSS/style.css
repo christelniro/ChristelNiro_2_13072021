@@ -5,15 +5,17 @@ body{
 #search{
     padding: 5px;
     outline: 0;
-    
+    color: black;
 }
+
 #localisation
 {
-border:1px solid;
+border:1px solid none;
 padding: 10px;
 border-bottom-left-radius: 10px;
 border-top-left-radius: 10px;
 background-color:#F2F2F2 ;
+
 }
 form{
     display: flex;
@@ -22,16 +24,70 @@ form{
     background-color:#0065FC ;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-
+    border: none;
+    color: white;
 }
-ul,li{
-   display: inline;
-   padding: 10px;
-   float: right;
-   margin-top: 10px;
-
+#search{
+    border:solid;
+    color: #F2F2F2;
+}
+.navigation {
+display: inline;
+float: right;
+padding: 0%;
+margin-right: 2rem;
+list-style-type: none;
+justify-content: flex-end;
+}
+.navigation li{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    transition: none;
+}
+.navigation li:hover{
+    box-shadow: #0065FC;
+    
 }
 #logoreservia{
-    width: 160px;
+    width: 110px;
+}
+.menubar i{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-align: center;
+}
+.menubar li{ 
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+/* section block*/
+
+.conteneur{margin-top: 30px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 60%;
+    padding: 0 20px 10px 20px;
 }
 
+.photohebergement img{
+    width: 220px;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    background-color: #F2F2F2;
+}
+.conteneur{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
