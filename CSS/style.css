@@ -1,6 +1,5 @@
 body{
     font-family: 'releway';
-    src: url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
 }
 #search{
     padding: 5px;
@@ -55,19 +54,27 @@ justify-content: flex-end;
 #logoreservia{
     width: 110px;
 }
-.menubar i{
-    padding: 0%;
-    margin: 0%;
-    list-style: none;
+/*menu bar */
+
+.logos {
     text-align: center;
+    vertical-align: center;
+    display:inline-flex;
+    outline: auto;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+    
 }
-.menubar li{ 
-    display: inline-block;
+    
+.menubar .li{ 
+    display: inline-flex;
     margin: 0%;
     padding: 0%;
     width: 200px;
     height: 40px;
     text-align: center;
+   
 }
 /* section block*/
 
