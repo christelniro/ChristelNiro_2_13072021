@@ -1,7 +1,6 @@
-body{
+html,body{
     font-family :  'Raleway' , sans-serif;
-    margin:0px;
-    padding: 0px;
+    
     box-sizing: border-box;
 }
 nav>ul{
@@ -14,59 +13,75 @@ nav>ul{
     margin: 10px;
     padding: 10px;    
 }
+.navlist li a{
+    text-decoration: none;
+    width: 10%;
+}
+
 .navlist{
-display: inline;
+display: flex;
 float: right;
-padding: 10px;
-margin:10px;
+
 list-style-type: none;
 justify-content: center;
 text-decoration: none;
+align-items: center;
+
 }
 .navlist li{
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    width: 100px;
     height: 50px;
     text-align: center;
     transition: none;
     text-decoration: none;     
 }
 .liste{
-    margin:auto;
-    padding: auto;
-    font-weight:lighter;
+    
     color: black;
-    text-align: center;    
+    
 }
 .liste a:hover{
     color: #0065FC;
     border-top: 1px solid #0065FC;
     background-color: rgba(0, 0, blue, 0);
-    border: top width 1px;
+    justify-content: space-around;
+    height: 99px;
+width: 140px;
+
     }
     .liste2 a:hover{
         color: #0065FC;
         border-top: 1px solid #0065FC;
         background-color: rgba(0, 0, blue, 0);
-        border: top width 1px;
+        justify-content: center;
+        height: 99px;
+width: 140px;
         }
 .liste2 a{
     font-weight: lighter;
     color: black;   
+    justify-content: center;
+    height: 99px;
+width: 140px;
 }
 h1{ font-size: 20px;
     margin: 10px;
     padding-left: 10px;
 }
 p{
-    padding-left: 17px;
+    padding-left: 35px;
+    font-weight: lighter;
+    margin: 10px;
+
 }
 /* barre de recherche*/
+
 form{
     display: flex;
     font-size: 50px;
+
 }
 #search{
     padding: 5px;
@@ -76,7 +91,7 @@ form{
     text-align: right;
 }
 #search{
-    border:solid;
+    border: 1px solid;
     color: #F2F2F2;
 }
 #localisation
@@ -96,15 +111,26 @@ font-size: 20px;
     border: 15px;
     color: white;
     font-size: 15px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
 }
 ::placeholder{
     color: black;
-    font-size: 20px;
+    font-size: 19px;
     text-align: left;
 }
 /*menu barre*/
+
+.filtres{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+    }
 .menubar{
-    display: center;
+    display: flex;
+    align-items: center;
 float: center;
 padding: 15px;
 margin:15px;
@@ -116,31 +142,84 @@ text-decoration: none;
     display: inline-block;
     text-align: center;
     transition: none;
-    text-decoration: none;     
+    text-decoration: none;   
+    justify-content: center;
+    align-items: center;
+    display: flex;  
 }
 .menubar li a {
     text-decoration: none;
     color: black;
-    border: 6px solid #F2F2F2;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-top-right-radius:100px ;
-    font-size: 30px;
+    border: 3px solid #F2F2F2;
+    font-size: 16px;
     text-align: left;
+    height: 48px;
+    border-radius: 0px 25px 25px 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 .menubar li a i {
     border:2px solid #F2F2F2;
     color: #0065FC;
-    background: rgb(50, 168, 236);
-    border-radius: 25px 35px 35px 35px;
-    font-size: 20px;
+    background: #deebff;
+    border-radius: 40px  ;
+    width: 48px;
+    height: 48px;
+    font-size: 19px;
     border-image: initial;
-    border-color: rgb(50, 168, 236);
     padding: 2px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: -35px;
+}
+
+.menubar:hover > .logos{
+    color: #0065FC;
+}
+.menubar:hover > i{
+    color: white;
+    background-color: #0065FC;
 
 }
+/*info*/
+.info{
+    display: flex;
+    align-items: center;
+}
+.parentIcon{
+    color: #0065FC;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 15px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+}
+p{
+    margin-left: -18px;
+}
 /* section hebergement */
+
+#titreflexbox{
+font-size: 30px;
+text-align:end;
+margin-top: 20px;
+
+
+}
 
 #conteneur{
     border: 10px  solid #f2f2f2;
@@ -173,14 +252,18 @@ text-decoration: none;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-color: white;
-    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
    .fa-star{
        color: #0065FC;
    } 
 
-}
+
 
 /* aside */
 aside{margin-top: 30px;
