@@ -217,7 +217,8 @@ p{
     display: flex;
   justify-content: space-around;
   align-items: center;
-
+margin: auto;
+padding: auto;
 }
 h2{
     margin-top: 10px;
@@ -240,6 +241,7 @@ h2{
     margin-right:-5px ;
     margin: 10px;
     padding-bottom: -200px;
+    margin-block-start: inherit;
 }
 .bloc1 {
     display: flex;
@@ -267,6 +269,7 @@ border-radius: 10px;
 background-color: #F2F2F2;
 justify-content: space-around;
 flex-direction: column;
+grid-column: auto;
 
  
 }
@@ -281,13 +284,7 @@ h3{
     margin-bottom: 5px;
 }
 
-.blockpopulaire{
-    flex: 1;
-    height: 550px;
-    margin-left: 15px ;
-    border-radius:10px ;
-    background-color: #F2F2F2;
-}
+
 .imghebergement1{
     background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
@@ -361,37 +358,138 @@ margin-bottom: 30px;
 }
 
 /*populaire*/
+ 
+.blockpopulaire{
+    flex: 1;
+    height: 550px;
+    margin-left: 15px ;
+    border-radius:10px ;
+    background-color: #F2F2F2;
+    display: grid;
+
+}
+.blocpop2{
+
+background-color: white;
+height: auto;
+padding: 1% 0 1% 1%;
+border-radius: 20px;
+display: flex;
+justify-content: left;
+align-items: left;
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+margin: auto;
+margin-block-start: inherit;
+}
+
 .imgPopulaires1 {
     background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px 0 0 20px;
     padding: 0px;
+    object-fit: cover;
   }
   .imgPopulaires2 {
     background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px 0 0 20px;
     padding: 0px;
+    object-fit: cover;
   }
   .imgPopulaires3 {
     background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px 0 0 20px;
     padding: 0px;
+    object-fit: cover;
   }
 
+  /* activité*/
+.activites{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocactivité{
+    width: 100%;
+    height: 600px;
+    width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+ ;
+}
+.imgtitre{
+    height: 70px;
+}
+.blocactivité{
+    cursor: pointer;
+  transform: scale(1.03)
+}
+
+.imageactivite1{
+    background-image: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+}
+.imageactivite2{
+    background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+}
+.imageactivite3{
+    background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+}
 
 
+/* footer */
+.footer {
+    height: 200px;
+    margin-top: 300px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+flex-direction: inherit;
+ }
 
+.titref{
+    height: 150px;
+    margin-left: 26px;
+margin-right: 200px
+
+}
+.dlienfooter{
+    margin-top: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+.lienFoot{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+
+}
 
 /*responting*/
 
