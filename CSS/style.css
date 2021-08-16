@@ -221,9 +221,10 @@ margin: auto;
 padding: auto;
 }
 h2{
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 15Px;
-    font-size: 15px;
+margin-bottom: 25px;
+font-size: 20px;
 }
 .colorBleu{
     color:#0065FC
@@ -417,19 +418,52 @@ margin-block-start: inherit;
 
   /* activité*/
 .activites{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-.blocactivité{
+.titreact{
     width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: inherit;
+    align-content: space-between;
+    
+ }
+.blocactivité{
     height: 600px;
     width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blocactivité2{
+    height: 600px;
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-block: auto;
+}
+.boxactivité2{
+    width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
- ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 .imgtitre{
     height: 70px;
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
 }
 .blocactivité{
     cursor: pointer;
@@ -460,7 +494,31 @@ margin-block-start: inherit;
   height: 150px;
   border-radius: 15px 15px 0 0;
 }
+.imageactivite4{
 
+background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+}
+.imageactivite5{
+    background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+}
+.imageactivite6{
+    background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+}
 
 /* footer */
 .footer {
