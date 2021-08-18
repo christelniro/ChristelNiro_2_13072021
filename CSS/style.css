@@ -15,7 +15,6 @@ nav>ul{
 }
 .navlist li a{
     text-decoration: none;
-    width: 10%;
 }
 
 .navlist{
@@ -29,7 +28,7 @@ align-items: center;
 
 }
 .navlist li{
-    display: inline-block;
+    display: block;
     margin: 10px;
     padding: 10px;
     height: 50px;
@@ -42,29 +41,16 @@ align-items: center;
     color: black;
     
 }
-.liste a:hover{
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
-    background-color: rgba(0, 0, blue, 0);
-    justify-content: space-around;
-    height: 99px;
-width: 140px;
-
+.navlist :hover{
+    border-top: 1px solid  #0065FC;
     }
-    .liste2 a:hover{
-        color: #0065FC;
-        border-top: 1px solid #0065FC;
-        background-color: rgba(0, 0, blue, 0);
-        justify-content: center;
-        height: 99px;
-width: 140px;
-        }
+    
 .liste2 a{
     font-weight: lighter;
     color: black;   
     justify-content: center;
     height: 99px;
-width: 140px;
+    width: 140px;
 }
 h1{ font-size: 20px;
     margin: 10px;
@@ -181,10 +167,10 @@ text-decoration: none;
     margin-left: -35px;
 }
 
-.menubar:hover > .logos{
+.menubar li:hover > a i{
     color: #0065FC;
 }
-.menubar:hover > i{
+.menubar li:hover > a i{
     color: white;
     background-color: #0065FC;
 
@@ -219,6 +205,18 @@ p{
     grid: column gap 25px;
     margin: 20px;
     
+}
+.blockhebergement:hover{
+    cursor: pointer;
+    transform: scales(1.1);
+
+}
+.bloc1:hover{
+    cursor: pointer;
+    transform: scale(1.04)
+}
+.bloc2:hover{
+    transform: scale(1.04);
 }
 h2{
     margin-top: 25px;
@@ -368,6 +366,10 @@ h3{
 }
 
 /*populaire*/
+.blocpop2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
  .iconpop i{
      margin-right:  199px; 
  }
@@ -490,9 +492,13 @@ h3{
   padding-left: 5%;
   width: 95%;
 }
-.blocactivité{
+.blocactivité:hover{
     cursor: pointer;
   transform: scale(1.03)
+}
+.blocactivité2:hover{
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .imageactivite1{
