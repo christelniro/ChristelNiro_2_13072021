@@ -11,22 +11,37 @@ nav>ul{
 #logoreservia{
     width: 80px;
     margin: 10px;
-    padding: 10px;    
+    padding: 10px;   
+    margin-bottom: 36px;
+
+}
+
+.nav menu{
+    display: flex;
+    grid-auto-columns: revert;
+    margin-top: 21px;
+}
+.menu ul{
+    margin-left: 843px;
+    display: flex;
+    font-size: large;
+    margin-top: -91px;
+}
+.nav2{
+    color: #0065fc;
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-left: 1132px;
+    margin-top: -68px;
 }
 .navlist li a{
     text-decoration: none;
 }
 
-.navlist{
-display: flex;
-float: right;
 
-list-style-type: none;
-justify-content: center;
-text-decoration: none;
-align-items: center;
-
-}
 .navlist li{
     display: block;
     margin: 10px;
@@ -36,15 +51,22 @@ align-items: center;
     transition: none;
     text-decoration: none;     
 }
-.liste{
+.liste2{  
+    color: black; 
     
-    color: black;
-    
+}
+.menu ul{
+    margin-left: 884px;
+    display: flex;
+    font-size: large;
+    margin-top: -91p
 }
 .navlist :hover{
     border-top: 1px solid  #0065FC;
     }
-    
+ .nav2 :hover{
+     border-top: 1px solid #0065fc;
+ }   
 .liste2 a{
     font-weight: lighter;
     color: black;   
@@ -580,17 +602,75 @@ margin-right: 200px
 
 }
 
-/*responting*/
+/*responsivedesign*/
 
 @media screen and (max-width: 767px){
-    .navlist .hebergement, .navlist .activites {
- display: none;
-  }
-    
-    .navlist .liste2{
-        padding: 0px;
-        margin: 0px;
-    }
+    /* header*/
+    .menu {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 72px;
+        margin-left: -126px;
      }
-   
+     #logoreservia {
+        width: 113px;
+        margin: 10px;
+        padding: 10px;
+        margin-bottom: 36px;
+    }
+.nav ul{
+    padding-left: 0%;
+    margin-top: 0px;
+}
+.liste {
+    margin-bottom: 3px;
+    font-size: 30px;
+}
+
+.liste2{
+    margin-bottom: 3px;
+    font-size: 30px;
+}
+nav{width:100%}
+.nav li{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #f2f2f2;
+    margin-top: 30px;
+}
+.liste:hover{
+    border-bottom: 1px solid #0065fc;
+    text-decoration: none;
+    border-top: none;
+}
+.liste2 :hover{
+    border-bottom: 3px solid #0065fc;
+    text-decoration: none;
+    border-top: none;
+    border:transparent;
+    transform: scale(1.1);
+
+}
+.navlist{
+    margin-right: -228px;
+    border-bottom: 3px solid #F2F2F2;
+ }
+.nav2{
+margin-left: 349px;
+    margin-top: -148px;
+    margin-right: -6px;
+    text-decoration: none;
+    font-size: 19px;}
+
+/* barre de rechercher*/
+
+  }
+
+     @media screen and (min-width: 768px) {
+
+     }
     

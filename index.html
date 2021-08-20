@@ -10,24 +10,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https : //fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap">
+
 </head>
 
 <body>
     <!-- menu de navigation header -->
     <header>
-        <nav class="menu">
+        
             <img src="images/logo/Reservia@3x.png" id=logoreservia alt="logo" />
-
+            
+            <div>
+                <nav class="menu">
             <ul class="navlist">
                 <li class="liste hebergement "><a href="#Hebergement">Hébergements</a></li>
-                <li class="liste2 activites "><a href="Activités">Activités</a></li>
-                <li class="liste "><a href="s'inscrire"><strong>S'inscrire</strong></a></li>
+                <li class="liste2 activites "><a href="#Activités">Activités</a></li>
             </ul>
         </nav>
-
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou pleine nature</p>
-    </header>
+        <a href="#" class="nav2"><strong>S'inscrire</strong></a></li>
+        </div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou pleine nature</p>
+     </header>
+    
     <!--barre de recherche-->
     <main>
         <form>
@@ -36,7 +40,7 @@
             <input type="submit" id="recherche" value="Rechercher" />
         </form>
         <!--barre de navigation-->
-        <nav>
+        
 
             <ul class="menubar">
                 <li class="filtres">Filtres</li>
@@ -56,7 +60,7 @@
         <!--flexbox HEBERGEMENT-->
         <section class="parenthébergement">
             <div class="blockhebergement">
-                <div class="titreheber"><h2>Hébergement à Marseille</h2></div>
+                <div class="titreheber"><h2 id="Hebergement">Hébergement à Marseille</h2></div>
                 <div class="bloc1">
                     <div class="entrebloc">
                         <div class="imghebergement1"></div>
@@ -196,7 +200,7 @@
         </section>
         <!--activité-->
         <section class="activites">
-            <h2>Activité à Marseille</h2>
+            <h2 id="Activités">Activité à Marseille</h2>
             <div class="titreact">
                 <div class="blocactivité">
                     <div class="imageactivite1"></div>
