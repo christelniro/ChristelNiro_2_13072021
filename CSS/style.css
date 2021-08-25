@@ -8,12 +8,22 @@ nav>ul{
     padding: 0px;
 }
 /* header */
-#logoreservia{
-    width: 94px;
-    margin: 10px;
-    padding: 10px;   
-    margin-bottom: 36px;
 
+.header{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    display: flex;
+}
+
+#logoreservia{
+    HEIGHT: 50px;
+    display: grid;
+    align-items: flex-end;
 }
 
 .nav menu{
@@ -21,33 +31,31 @@ nav>ul{
     grid-auto-columns: revert;
     margin-top: 21px;
 }
-.menu ul{
-    margin-left: 843px;
-    display: flex;
-    font-size: large;
-    margin-top: -91px;
-}
+
 .nav2{
+   
     color: #0065fc;
     display: flex;
     list-style-type: none;
-    margin-top: 30px;
+    margin-top: 29px;
+    margin-left: 23px;
+    margin-right: 49Px;
     margin-bottom: 20px;
-    padding-right: 20px;
-    margin-left: 1132px;
-    margin-top: -68px;
+    padding-right: 36px;
     text-decoration: none;
 }
+
 .navlist li a{
     text-decoration: none;
 }
 
 
 .navlist li{
-    display: block;
+    display: flex;
     margin: 10px;
-    margin-left:-5px;
-    padding: 10px;
+    
+    padding: 0px;
+    padding-top: 14px;
     height: 50px;
     text-align: center;
     transition: none;
@@ -58,23 +66,18 @@ nav>ul{
     
 }
 .menu ul{
-    margin-left: 884px;
     display: flex;
     font-size: large;
-    margin-top: -91p
+   
 }
-.navlist :hover{
-    border-top: 1px solid  #0065FC;
-    }
- .nav2 :hover{
-     border-top: 1px solid #0065fc;
- }   
+
 .liste2 a{
     font-weight: lighter;
     color: black;   
     justify-content: center;
     height: 99px;
     width: 140px;
+    text-decoration: none;
 }
 h1{ font-size: 20px;
     margin: 10px;
@@ -225,9 +228,8 @@ p{
 /* HEBERGEMENT */
 .parenthébergement{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid: column gap 25px;
-    margin: 20px;
     
 }
 .blockhebergement:hover{
@@ -262,7 +264,7 @@ h2{
 .bloc1 {
     display: grid;
     grid-auto-flow: column;
-    margin-left: 55px;
+    margin-left: 111px;
     margin-right: 100px;
     margin-bottom: 20px;
 
@@ -271,15 +273,17 @@ h2{
 .bloc2{
     display: grid;
     grid-auto-flow: column;
-    margin-left: 55px;
+    margin-left: 115px;
     margin-right: 100px;}
 
 
 .blockhebergement{
     height: 523px;
-    width: 769px;
+    width: 951px;
+    margin-left: 19px;
+    align-content: center;
     border-radius: 10px;
-    background-color: #F2F2F2; 
+    background-color: #F2F2F2;
 }
 
 .colorgris{
@@ -606,20 +610,25 @@ margin-right: 200px
 
 /*responsivedesign*/
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 667px){
     /* header*/
+    .responsive{
+        padding: 13px;
+    }
     .menu {
         display: flex;
-        align-items: baseline;
-        flex-wrap: wrap-reverse;
-        flex-direction: column-reverse;
         width: 100%;
-        margin-top: 72px;
-        margin-left: -126px;
+        margin-top: 69px;
+        margin-bottom: 25Px;
+        margin-left: -861px;
+     }
+
+     .header{
+    display: flex;
      }
      #logoreservia {
-        width: 113px;
-        margin: 10px;
+        width: 79px;
+        margin: 5px;
         padding: 10px;
         margin-bottom: 36px;
     }
@@ -629,12 +638,13 @@ margin-right: 200px
 }
 .liste {
     margin-bottom: 3px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .liste2{
     margin-bottom: 3px;
-    font-size: 30px;
+    font-size: 20px;
+    width: inherit;
 }
 nav{width:100%}
 .nav li{
@@ -658,18 +668,155 @@ nav{width:100%}
 
 }
 .navlist{
+    height: 72px;
+    width: 409px;
     margin-right: -228px;
-    border-bottom: 3px solid #F2F2F2;
+    border-bottom: 3px solid #F2F2F2
+
+
  }
-.nav2{
-margin-left: 349px;
-    margin-top: -148px;
-    margin-right: -6px;
+
+ .navlist li:hover{
+    border-bottom: 3px solid #0065fc;
     text-decoration: none;
-    font-size: 19px;}
+    width: 401px;
+ }
+.nav2{    margin-left: 103px;
+    margin-top: -34px;  
+}
 
 /* barre de rechercher*/
 
+#recherche{
+    margin: auto;
+    margin-left: -32px;
+    width: 54px;
+    border-radius: 15px;
+}
+#search{
+    margin: 1px;
+}
+#localisation{
+    margin: 0px;
+}
+/* barre filtre */
+
+.menubar{
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.filtres{
+    margin-bottom: 21px;
+}
+.logos{
+    margin-bottom: 11px;
+}
+
+/* bloc hebergement et pop */
+
+.parenthébergement{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.blockhebergement{
+background-color: white;
+display: flex;
+flex-direction: column;
+}
+.blockpopulaire{
+margin: -10px;
+padding:0px
+}
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: inherit;}
+.bloc2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: inherit;
+}
+
+
+/* activité */
+.activites{
+    margin-top: 638px;
+    margin-left: 65px;
+    margin-bottom: -143px;
+    flex-direction: column;  
+}
+.titreact{
+    margin: 0px;
+    padding: 0px;
+}
+.blocactivité{
+    width: 72px;
+    }
+
+    .imageactivite1{
+        height: 135px;
+        width: 275px;
+        margin-left: -124px;
+}
+.blocactivité2{
+width: 143px;}
+.imageactivite2{
+    height: 135px;
+    width: 275px;
+    margin-top: -106px;
+    margin-left: 105px;
+}
+.imageactivite3{
+    height: 135px;
+    width: 275px;
+    margin-top: -106px;
+    margin-left: 105px;
+}
+.imageactivite4{
+    height: 135px;
+    width: 275px;
+    margin-top: -3px;
+    margin-left: -115px;
+}
+.imageactivite5{
+    height: 135px;
+    width: 275px;
+    margin-top: -106px;
+    margin-left: 105px;
+
+}
+.imageactivite6{
+    height: 135px;
+    width: 275px;
+    margin-top: -106px;
+    margin-left: 105px;
+
+}
+.imgtitre{
+    width: 41px;
+    margin: -3px;
+    margin-left: -87px
+}
+.boxactivité2{
+    margin-top: 100px;
+}
+
+/* footer */
+
+.footer{ 
+    background-color: #f2F2F2;
+    display: flex;
+    height: 653px;
+    justify-content: space-evenly;
+    margin-top: 1235px;
+    flex-direction: column;
   }
 
      @media screen and (min-width: 768px) {
