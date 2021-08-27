@@ -28,7 +28,7 @@ nav>ul{
 
 .nav menu{
     display: flex;
-    grid-auto-columns: revert;
+   
     margin-top: 21px;
 }
 
@@ -44,11 +44,21 @@ nav>ul{
     padding-right: 36px;
     text-decoration: none;
 }
+.header a:hover  {
+color: #0065fc;
+border-top-color: #0065fc;}
+
+.navlist{
+    border: 4px solid transparent;
+}
 
 .navlist li a{
     text-decoration: none;
 }
-
+.navlist li:hover{
+    border-top: 1px solid #0065fc;
+    text-decoration: none;
+}
 
 .navlist li{
     display: flex;
@@ -144,7 +154,6 @@ font-size: 20px;
 .menubar{
     display: flex;
     align-items: center;
-float: center;
 padding: 15px;
 margin:15px;
 list-style-type: none;
@@ -229,7 +238,6 @@ p{
 .parenthebergement{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid: column gap 25px;
     margin: 20px;    
 }
 .blockhebergement:hover{
@@ -258,7 +266,6 @@ h2{
     background-color: white;
     border-radius: 10px;
     margin: 10px;
-    padding-bottom: -200px;
     margin-block-start: inherit;
 }
 .bloc1 {
@@ -483,7 +490,7 @@ h3{
     align-content: space-between;
     
  }
-.blocactivité{
+.blocactivite{
     height: 600px;
     width: 23%;
     border-radius: 15px;
@@ -491,7 +498,7 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
-.blocactivité2{
+.blocactivite2{
     height: 600px;
     width: 23%;
     border-radius: 15px;
@@ -501,7 +508,7 @@ h3{
     justify-content: space-between;
     margin-block: auto;
 }
-.boxactivité2{
+.boxactivite2{
     width: 100%;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
@@ -509,7 +516,6 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .imgtitre{
     height: 70px;
@@ -519,11 +525,11 @@ h3{
   padding-left: 5%;
   width: 95%;
 }
-.blocactivité:hover{
+.blocactivite:hover{
     cursor: pointer;
   transform: scale(1.03)
 }
-.blocactivité2:hover{
+.blocactivite2:hover{
     cursor: pointer;
     transform: scale(1.04);
 }
@@ -609,7 +615,7 @@ margin-right: 200px
 
 /*responsivedesign*/
 
-@media screen and (max-width: 667px){
+@media screen and (max-width: 768px){
     /* header*/
     .responsive{
         padding: 13px;
@@ -719,7 +725,7 @@ nav{width:100%}
 /* bloc hebergement et pop */
 
 .textgras{
-    margin-left: -56px;
+    margin-left: -84px;
     font-size: larger;}
 #Hebergement{
     font-size: large;
@@ -795,7 +801,7 @@ nav{width:100%}
 /* activité */
 
 #activite1{
-    margin-left: -21px;
+    margin-left: -52px;
     font-size: revert;
 }
 
@@ -810,7 +816,7 @@ nav{width:100%}
     margin: -28px;
     padding: 0px
 }
-.blocactivité{
+.blocactivite{
     width: 100%;
     margin-top: 39px;
     margin-bottom: 102px;
@@ -821,7 +827,7 @@ nav{width:100%}
         height: 172px;
     width: 100%;
 }
-.blocactivité2{
+.blocactivite2{
     width: 100%;
     margin-inline: 3px;
      margin-top: -178px;
@@ -858,7 +864,7 @@ nav{width:100%}
     margin: -4px;
     margin-left: -9px;
 }
-.boxactivité2{
+.boxactivite2{
     margin-top: 95px;
 }
 
@@ -870,7 +876,7 @@ nav{width:100%}
     height: 497px;
     margin-left: -15px;
     margin-bottom: -9px;
-    argin-left: _15px;
+    margin-left: -15px;
     justify-content: space-evenly;
     margin-top: 1375px;
     margin-right: -95px;
@@ -886,6 +892,102 @@ nav{width:100%}
     padding-bottom: 19px;  }
    }
 
-     @media screen and (min-width: 768px) {
+     @media screen and (max-width: 1024px) {
+.menu{
+    margin-right: -200px;}
+.navlist{margin-left: 430px;}
+.responsive{
+    margin-right: 20px;
+}
+.nav2{
+    margin-left: -759px;
+}
 
+/* hebergement*/
+.blockhebergement{
+    width: 935px;
+    height: 790Px;
+    margin: -2Px;
+}
+.parenthebergement{
+    display: flex;
+    margin-left: 8px;
+    margin-right: -153px;   
+    flex-wrap: wrap;}
+.bloc1{
+
+margin-left: 45px;
+grid-template-rows: auto;
+}
+.bloc2{
+    margin-left: 45px;
+    grid-template-rows: auto;
+}
+
+.entrebloc{
+    margin: 13px;
+    width: 261px;
+    height: 293px;
+}
+.imghebergement1{
+    height: 158px;
+    width: 230px;
+}
+.imghebergement2{height: 158px;
+    width: 230px;}
+
+    .imghebergement3{
+        height: 158px;
+    width: 230px;
+    }
+
+    .imghebergement4{height: 158px;
+        width: 230px;}
+        .imghebergement5{
+            height: 158px;
+    width: 230px;
+        }
+
+        .imghebergement6{height: 158px;
+            width: 230px;}
+.texthebergement{width: 167px;
+    height: 90px;
+    margin: 35px;
+    margin-top: -26px;
+    font-size: larger;}
+
+   /* populaire */ 
+.blockpopulaire{
+    height: 749px;
+    width: 1052px;
+    margin-top: 37px;
+    margin-left: -2px;
+}
+.titrepop{
+    margin-left: 123px;
+}
+.blocpop2{
+    height: 193px;
+    width: 491px;
+    margin-left: 193px;
+    }
+
+    .imgPopulaires1{
+        margin: 3px;
+        height: revert;}
+    .imgPopulaires2{margin: 3px;
+        height: revert;}
+    .imgPopulaires3{margin: 3px;
+        height: revert;}
+
+.textpopulaire{
+    margin-left: 16px;
+    font-size: 21px;}
+/* Activité */
+.activites{
+    margin-left: 29px;
+    width: 917px;}
+.footer{
+    width: 985px;
+}
      }
