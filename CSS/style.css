@@ -242,12 +242,11 @@ p{
 }
 .blockhebergement:hover{
     cursor: pointer;
-    transform: scales(1.1);
-
+    transform: scale(1.01);
 }
 .bloc1:hover{
     cursor: pointer;
-    transform: scale(1.04)
+    transform: scale(1.04);
 }
 .bloc2:hover{
     transform: scale(1.04);
@@ -271,23 +270,22 @@ h2{
 .bloc1 {
     display: grid;
     grid-auto-flow: column;
-    margin-left: 111px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-
-    
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-bottom: 20px;  
 }
 .bloc2{
     display: grid;
     grid-auto-flow: column;
-    margin-left: 115px;
-    margin-right: 100px;}
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-bottom: 20px;}
 
 
 .blockhebergement{
     height: 523px;
-    width: 951px;
-    margin-left: 19px;
+    width: 775px;
+    margin-left: -4px;
     align-content: center;
     border-radius: 10px;
     background-color: #F2F2F2;
@@ -741,7 +739,7 @@ nav{width:100%}
     margin: -6px;
     width: 176%;
     margin-left: 28px;
-    box-shadow: darkgoldenrod;
+    
     font-size: 14px;
     background-color: whitesmoke;
     border-radius: 0px 0px 12px 12px
@@ -801,8 +799,7 @@ nav{width:100%}
 /* activité */
 
 #activite1{
-    margin-left: -52px;
-    font-size: revert;
+    margin-left: -25px;   
 }
 
 .activites{
@@ -974,11 +971,11 @@ grid-template-rows: auto;
 
     .imgPopulaires1{
         margin: 3px;
-        height: revert;}
+        }
     .imgPopulaires2{margin: 3px;
-        height: revert;}
+        }
     .imgPopulaires3{margin: 3px;
-        height: revert;}
+       }
 
 .textpopulaire{
     margin-left: 16px;
