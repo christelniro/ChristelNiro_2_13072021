@@ -887,3 +887,102 @@ margin-right: 200px
         padding-bottom: 19px;  }
        
      }
+     @media screen and (min-width: 1024px) {
+        .menu{
+            margin-right: -200px;}
+        .navlist{margin-left: 430px;}
+        .responsive{
+            margin-right: 20px;
+        }
+        .nav2{
+            margin-left: -759px;
+        }
+        
+        /* hebergement*/
+        .blockhebergement{
+            width: 935px;
+            height: 790Px;
+            margin: -2Px;
+        }
+        .parenthebergement{
+            display: flex;
+            margin-left: 8px;
+            margin-right: -153px;   
+            flex-wrap: wrap;}
+        .bloc1{
+        
+        margin-left: 45px;
+        grid-template-rows: auto;
+        }
+        .bloc2{
+            margin-left: 45px;
+            grid-template-rows: auto;
+        }
+        
+        .entrebloc{
+            margin: 13px;
+            width: 261px;
+            height: 293px;
+        }
+        .imghebergement1{
+            height: 158px;
+            width: 230px;
+        }
+        .imghebergement2{height: 158px;
+            width: 230px;}
+        
+            .imghebergement3{
+                height: 158px;
+            width: 230px;
+            }
+        
+            .imghebergement4{height: 158px;
+                width: 230px;}
+                .imghebergement5{
+                    height: 158px;
+            width: 230px;
+                }
+        
+                .imghebergement6{height: 158px;
+                    width: 230px;}
+        .texthebergement{width: 167px;
+            height: 90px;
+            margin: 35px;
+            margin-top: -26px;
+            font-size: larger;}
+        
+           /* populaire */ 
+        .blockpopulaire{
+            height: 749px;
+            width: 1052px;
+            margin-top: 37px;
+            margin-left: -2px;
+        }
+        .titrepop{
+            margin-left: 123px;
+        }
+        .blocpop2{
+            height: 193px;
+            width: 491px;
+            margin-left: 193px;
+            }
+        
+            .imgPopulaires1{
+                margin: 3px;
+                height: revert;}
+            .imgPopulaires2{margin: 3px;
+                height: revert;}
+            .imgPopulaires3{margin: 3px;
+                height: revert;}
+        
+        .textpopulaire{
+            margin-left: 16px;
+            font-size: 21px;}
+        /* Activité */
+        .activites{
+            margin-left: 29px;
+            width: 917px;}
+        .footer{
+            width: 985px;
+        }
+             }
