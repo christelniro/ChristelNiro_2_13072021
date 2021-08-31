@@ -608,7 +608,7 @@ margin-right: 200px
 
 /*responsivedesign*/
 
-@media screen and (max-device-width: 375px){
+@media screen and (max-width: 767px){
     
         /* header*/
         .responsive{
@@ -645,7 +645,7 @@ margin-right: 200px
         font-size: 20px;
         width: inherit;
     }
-    nav{width:100%}
+    .nav{width:100%}
     .nav li{
         width: 50%;
         text-align: center;
@@ -887,10 +887,13 @@ margin-right: 200px
         padding-bottom: 19px;  }
        
      }
-     @media screen and (max-width:1024px) {
+
+     @media  screen and ( min-width:768px ) and (max-width:1023px) {
         .menu{
             margin-right: -200px;}
+
         .navlist{margin-left: 430px;}
+        
         .responsive{
             margin-right: 20px;
         }
@@ -936,14 +939,14 @@ margin-right: 200px
             width: 230px;
             }
         
-            .imghebergement4{height: 158px;
+        .imghebergement4{height: 158px;
                 width: 230px;}
-                .imghebergement5{
+        .imghebergement5{
                     height: 158px;
             width: 230px;
                 }
         
-                .imghebergement6{height: 158px;
+         .imghebergement6{height: 158px;
                     width: 230px;}
         .texthebergement{width: 167px;
             height: 90px;
@@ -985,4 +988,4 @@ margin-right: 200px
         .footer{
             width: 985px;
         }
-             }
+             } 
