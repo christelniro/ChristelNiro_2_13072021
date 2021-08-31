@@ -892,13 +892,8 @@ margin-right: 200px
         .menu{
             margin-right: -200px;}
 
-        .navlist{margin-left: 430px;}
-        
         .responsive{
             margin-right: 20px;
-        }
-        .nav2{
-            margin-left: -759px;
         }
         
         /* hebergement*/
@@ -913,7 +908,6 @@ margin-right: 200px
             margin-right: -153px;   
             flex-wrap: wrap;}
         .bloc1{
-        
         margin-left: 45px;
         grid-template-rows: auto;
         }
@@ -959,7 +953,7 @@ margin-right: 200px
             height: 749px;
             width: 1052px;
             margin-top: 37px;
-            margin-left: -2px;
+            
         }
         .titrepop{
             margin-left: 123px;
@@ -983,8 +977,10 @@ margin-right: 200px
             font-size: 21px;}
         /* Activité */
         .activites{
-            margin-left: 29px;
-            width: 917px;}
+            margin-left: 40px;
+    margin-right: -181px;
+            }
+            
         .footer{
             width: 985px;
         }
