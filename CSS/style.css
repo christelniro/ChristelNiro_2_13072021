@@ -753,7 +753,6 @@ margin-right: 200px
         margin: -6px;
         width: 176%;
         margin-left: 28px;
-        box-shadow: darkgoldenrod;
         font-size: 14px;
         background-color: whitesmoke;
         border-radius: 0px 0px 12px 12px
@@ -815,7 +814,7 @@ margin-right: 200px
     
     #activite1{
         margin-left: -21px;
-        font-size: revert;
+        
     }
     
     .activites{
@@ -889,7 +888,7 @@ margin-right: 200px
         height: 497px;
         margin-left: -15px;
         margin-bottom: -9px;
-        margin-left: _15px;
+        margin-left: -15px;
         justify-content: space-evenly;
         margin-top: 1375px;
         margin-right: -95px;
@@ -981,11 +980,11 @@ margin-right: 200px
         
             .imgPopulaires1{
                 margin: 3px;
-                height: revert;}
+                }
             .imgPopulaires2{margin: 3px;
-                height: revert;}
+                }
             .imgPopulaires3{margin: 3px;
-                height: revert;}
+                }
         
         .textpopulaire{
             margin-left: 16px;
