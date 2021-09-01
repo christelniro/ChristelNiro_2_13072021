@@ -95,7 +95,8 @@ p{
 
 }
 /* barre de recherche*/
-
+.buttonrecherche{display: none;}
+.loupe{display: none;}
 form{
     display: flex;
     font-size: 50px;
@@ -691,6 +692,21 @@ margin-right: 200px
         margin-left: -32px;
         width: 54px;
         border-radius: 15px;
+        display: none;
+    }
+    .buttonrecherche{
+        display: none;
+    }
+    .loupe{
+        background-color: #0065FC;
+    border-radius: 15px 15px 15px 15px;
+    border: 15px;
+    color: white;
+    font-size: 15px;
+    width: 46px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: -15px;
     }
     #search{
         margin: 1px;
@@ -942,10 +958,7 @@ margin-right: 200px
         
          .imghebergement6{height: 158px;
                     width: 230px;}
-        .texthebergement{width: 167px;
-            height: 90px;
-            margin: 35px;
-            margin-top: -26px;
+        .texthebergement{
             font-size: larger;}
         
            /* populaire */ 
@@ -982,6 +995,13 @@ margin-right: 200px
             }
             
         .footer{
-            width: 985px;
+            width: 948px;
+            height: unset;
+        }
+        .titref{
+            height: 275px;
+        }
+        .dlienfooter{
+            height: auto;
         }
              } 
