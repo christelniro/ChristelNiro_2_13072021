@@ -95,8 +95,9 @@ p{
 
 }
 /* barre de recherche*/
-.buttonrecherche{display: none;}
-.loupe{display: none;}
+.buttonrecherche2{display: none;}
+.loupe2{display: none;}
+
 form{
     display: flex;
     font-size: 50px;
@@ -697,7 +698,7 @@ margin-right: 200px
     .buttonrecherche{
         display: none;
     }
-    .loupe{
+    .loupe2{
         background-color: #0065FC;
     border-radius: 15px 15px 15px 15px;
     border: 15px;
@@ -707,6 +708,7 @@ margin-right: 200px
     height: 50px;
     cursor: pointer;
     margin-left: -15px;
+    display: block;
     }
     #search{
         margin: 1px;
