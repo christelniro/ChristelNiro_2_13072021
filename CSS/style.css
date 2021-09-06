@@ -18,6 +18,7 @@ nav>ul{
 
 .menu{
     display: flex;
+    align-items: baseline;
 }
 .responsive{
     margin-top: -29px;
@@ -28,12 +29,12 @@ nav>ul{
     margin-left: 20px;
     display: grid;
     align-items: flex-end;
+    margin-top: 40px;
 }
 
 .nav menu{
     display: flex;
-   
-    margin-top: 21px;
+    margin-top: 41px;
 }
 
 .nav2{
@@ -45,7 +46,9 @@ nav>ul{
 
 .header a:hover  {
 color: #0065fc;
-border-top-color: #0065fc;}
+border-top-color: #0065fc;
+padding-top: 44px;
+}
 
 .navlist{
     border: 1px solid transparent;
@@ -53,10 +56,8 @@ border-top-color: #0065fc;}
 
 .navlist li a{
     text-decoration: none;
-}
-.navlist li:hover{
-    border-top: 1px solid #0065fc;
-    text-decoration: none;
+    padding-top: 44px;
+    padding-bottom: 44px
 }
 
 .navlist li{
@@ -909,6 +910,9 @@ margin-right: 200px
      }
 
      @media  screen and ( min-width:768px ) and (max-width:1023px) {
+        .header{
+            display: flex;
+        }
         .menu{
             margin-right: -200px;}
 
