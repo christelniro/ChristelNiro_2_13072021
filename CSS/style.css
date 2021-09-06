@@ -12,14 +12,20 @@ nav>ul{
 .header{
     display: flex;
     justify-content: space-between;
+    margin-top: -16px;
+    align-items: center;
 }
 
 .menu{
     display: flex;
 }
+.responsive{
+    margin-top: -29px;
+}
 
 #logoreservia{
     height:50px;
+    margin-left: 20px;
     display: grid;
     align-items: flex-end;
 }
@@ -32,19 +38,17 @@ nav>ul{
 
 .nav2{
     color: #0065fc;
-    display: flex;
     text-decoration: none;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    align-items: flex-end;
+    margin-top: 77px;
+    align-items: center;
 }
+
 .header a:hover  {
 color: #0065fc;
 border-top-color: #0065fc;}
 
 .navlist{
-    border: 4px solid transparent;
+    border: 1px solid transparent;
 }
 
 .navlist li a{
@@ -58,9 +62,8 @@ border-top-color: #0065fc;}
 .navlist li{
     display: flex;
     margin: 10px;
-    
     padding: 0px;
-    padding-top: 14px;
+    padding-top: 60px;
     height: 50px;
     text-align: center;
     transition: none;
