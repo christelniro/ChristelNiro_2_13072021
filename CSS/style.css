@@ -12,7 +12,7 @@ nav>ul{
 .header{
     display: flex;
     justify-content: space-between;
-    margin-top: -19px;
+    align-items: center;    
 }
 
 .menu{
@@ -24,6 +24,7 @@ nav>ul{
     height:50px;
     display: grid;
     align-items: flex-end;
+    margin-top: 40px;
 }
 
 .nav menu{
@@ -36,9 +37,11 @@ nav>ul{
     display: flex;
     text-decoration: none;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    align-items: flex-end;
+    margin-bottom: 11px;
+    margin-right: 47px;
+    margin-left: -9px;
+
+    align-items: center;
 }
 .navlist a:hover  {
 color: #0065fc;
