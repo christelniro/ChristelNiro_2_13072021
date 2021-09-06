@@ -44,7 +44,9 @@ body{
     display: block;
     padding: 20px;
 }
-
+.nav2.mobile{
+    display: none;
+}
 .navlist li:hover  {
 color: #0065fc;
 border-top-color: #0065fc;
@@ -575,21 +577,23 @@ margin-right: 200px
             padding: 13px;
         }
         .menu {
+            
             display: flex;
             width: 100%;
-            margin-top: 69px;
-            margin-bottom: 25Px;
-            margin-left: -861px;
+            
+          
          }
     
          .header{
         display: flex;
+        flex-flow: row wrap;
          }
          #logoreservia {
+             
             width: 79px;
             margin: 5px;
             padding: 10px;
-            margin-bottom: 36px;
+            
         }
     .nav ul{
         padding-left: 0%;
@@ -606,6 +610,12 @@ margin-right: 200px
         width: inherit;
     }
     .nav{width:100%}
+    .nav2.mobile{
+        display: block;
+    }
+    .nav2{
+        display: none;
+    }
     .nav li{
         width: 50%;
         text-align: center;
@@ -640,8 +650,9 @@ margin-right: 200px
        border-bottom:1px solid #0065fc;
        border-top: none;
      }
-    .nav2{    margin-left: 87px;
-        margin-top: -130px;  
+    .nav2{    
+        margin-left: 87px;
+        
     }
     
     /* barre de rechercher*/
@@ -675,13 +686,16 @@ margin-right: 200px
         margin: 0px;
     }
     /* barre filtre */
-    
+    .menubar li a {
+        margin-left: 0px;
+        margin-right: 0Px;
+    }
     .menubar{
         display: flex;
-        
-        justify-content: center;
+        margin: 0px;
+        justify-content: space-between;
         align-items: flex-start;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
     }
