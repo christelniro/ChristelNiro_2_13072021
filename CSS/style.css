@@ -8,28 +8,28 @@ nav>ul{
     padding: 0px;
 }
 /* header */
+body{
+    margin-top: 0px;
+}
 
 .header{
     display: flex;
     justify-content: space-between;
-    margin-top: -16px;
-    align-items: center;
+    
 }
 
 .menu{
     display: flex;
-    align-items: baseline;
+   
 }
-.responsive{
-    margin-top: -29px;
-}
+
 
 #logoreservia{
     height:50px;
-    margin-left: 20px;
+
     display: grid;
     align-items: flex-end;
-    margin-top: 40px;
+    
 }
 
 .nav menu{
@@ -40,35 +40,34 @@ nav>ul{
 .nav2{
     color: #0065fc;
     text-decoration: none;
-    margin-top: 77px;
     align-items: center;
+    display: block;
+    padding: 20px;
 }
 
-.header a:hover  {
+.navlist li:hover  {
 color: #0065fc;
 border-top-color: #0065fc;
-padding-top: 44px;
 }
 
 .navlist{
     border: 1px solid transparent;
 }
-
+.navlist li{
+    border-top: 3px transparent solid;
+    padding-top: 14px;
+}
 .navlist li a{
     text-decoration: none;
-    padding-top: 44px;
-    padding-bottom: 44px
+   
 }
 
 .navlist li{
     display: flex;
-    margin: 10px;
-    padding: 0px;
-    padding-top: 60px;
-    height: 50px;
     text-align: center;
     transition: none;
-    text-decoration: none;     
+    text-decoration: none; 
+        
 }
 .liste2{  
     color: black; 
@@ -84,7 +83,6 @@ padding-top: 44px;
     font-weight: lighter;
     color: black;   
     justify-content: center;
-    height: 99px;
     width: 140px;
     text-decoration: none;
 }
