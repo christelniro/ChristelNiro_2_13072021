@@ -895,12 +895,13 @@ margin-right: 200px
        
      }
 
+
      @media  screen and ( min-width:768px ) and (max-width:1023px) {
         .header{
             display: flex;
         }
         .menu{
-            margin-right: -200px;}
+            margin-right: 0px;}
 
         .responsive{
             margin-right: 20px;
@@ -908,92 +909,67 @@ margin-right: 200px
         
         /* hebergement*/
         .blockhebergement{
-            width: 935px;
-            height: 790Px;
-            margin: -2Px;
+           
+            height: 638px;
+            margin: 7px;
         }
         .parenthebergement{
-            display: flex;
-            margin-left: 8px;
-            margin-right: -153px;   
+            display: flex;   
             flex-wrap: wrap;}
         .bloc1{
-        margin-left: 45px;
+        
         grid-template-rows: auto;
         }
         .bloc2{
-            margin-left: 45px;
+           
             grid-template-rows: auto;
         }
         
-        .entrebloc{
-            margin: 13px;
-            width: 261px;
-            height: 293px;
-        }
-        .imghebergement1{
-            height: 158px;
-            width: 230px;
-        }
-        .imghebergement2{height: 158px;
-            width: 230px;}
         
-            .imghebergement3{
-                height: 158px;
-            width: 230px;
-            }
-        
-        .imghebergement4{height: 158px;
-                width: 230px;}
-        .imghebergement5{
-                    height: 158px;
-            width: 230px;
-                }
-        
-         .imghebergement6{height: 158px;
-                    width: 230px;}
         .texthebergement{
             font-size: larger;}
         
            /* populaire */ 
         .blockpopulaire{
-            height: 749px;
-            width: 1052px;
-            margin-top: 37px;
             
+            height: 749px;
+    margin-top: 37px;
+    margin-left: 48px;
+    margin-right: 48px;
         }
         .titrepop{
             margin-left: 123px;
         }
         .blocpop2{
-            height: 193px;
             width: 491px;
-            margin-left: 193px;
             }
         
             .imgPopulaires1{
                 margin: 3px;
+                height: 181px;
                 }
             .imgPopulaires2{margin: 3px;
+                height: 181px;
                 }
             .imgPopulaires3{margin: 3px;
+                height: 181px;
                 }
         
         .textpopulaire{
             margin-left: 16px;
             font-size: 21px;}
         /* Activité */
-        .activites{
-            margin-left: 40px;
-    margin-right: -181px;
-            }
+       
             
         .footer{
-            width: 948px;
-            height: unset;
+            display: flex;
+            height: 246px;
+            align-content: space-around;
         }
         .titref{
             height: 275px;
+            margin: 0px;
+            padding: 0px;
         }
         .dlienfooter{
             height: auto;
