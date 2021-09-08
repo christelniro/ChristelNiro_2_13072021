@@ -594,6 +594,7 @@ margin-right: 200px
          .header{
         display: flex;
         flex-flow: row wrap;
+        align-items: center;
          }
          #logoreservia {
                width: 79px;
@@ -721,10 +722,12 @@ margin-right: 200px
     margin-bottom: 30px;
 }
 .blockpopulaire{
-    width: 100%;
+    width: 104%;
     height: 464px;
     display: flex;
     border-radius: 0;
+    width: 110%;
+    margin-left: -8px;
 }
     .textgras{
        
@@ -881,8 +884,9 @@ margin-right: 200px
         background-color: #f2F2F2;
         display: flex;
         height: 497px;
-        width: 369px;
+        width: 376px;
         margin-top: 1375px;
+        margin-left: -9px;
         flex-direction: column;
       }
       .dlienfooter{
