@@ -914,18 +914,23 @@ margin-right: 200px
         .header{
             display: flex;
         }
+        .Filtre{
+            height: 23px;
+        }
         .menu{
             margin-right: 0px;}
 
         .responsive{
             margin-right: 20px;
         }
-        
-        .menubar{
-            margin: 0px;
-            padding: 0px;
+        .logos{
+            margin-top: 12px;
         }
-        /* hebergement*/
+        .menubar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  }
         .blockhebergement{
            
             height: 638px;
