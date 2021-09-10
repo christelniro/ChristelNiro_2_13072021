@@ -945,8 +945,7 @@ margin-right: 200px
         justify-content: space-between;
   }
         .blockhebergement{
-           
-            height: 638px;
+            height: 710px;
             margin: 7px;
         }
         .parenthebergement{
@@ -963,9 +962,19 @@ margin-right: 200px
         
         
         .texthebergement{
-            font-size: larger;}
+            font-size: 17px;}
         
            /* populaire */ 
+
+    
+        .entrebloc .imghebergement{
+            height: 120px;
+            width: 151px;
+        }
+    
+        .entrebloc{
+width: 182px;
+        }
         .blockpopulaire{
             
             height: 749px;
@@ -991,7 +1000,7 @@ margin-right: 200px
         
         .textpopulaire{
             margin-left: 16px;
-            font-size: 21px;}
+            font-size: 17px;}
         /* Activité */
        
             
