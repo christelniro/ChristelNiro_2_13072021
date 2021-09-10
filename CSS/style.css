@@ -28,7 +28,7 @@ body{
 }
 #logoreservia{
     height:50px;
-
+margin-left: 16px;
     display: grid;
     align-items: flex-end;
     
@@ -45,6 +45,7 @@ body{
     align-items: center;
     display: block;
     padding: 20px;
+    margin-right: 24px;
 }
 .nav2.mobile{
     display: none;
@@ -54,6 +55,9 @@ color: #0065fc;
 border-top-color: #0065fc;
 }
 
+.navlist li a:hover{
+    color: #0065fc;
+}
 .navlist{
     border: 1px solid transparent;
 }
@@ -63,6 +67,7 @@ border-top-color: #0065fc;
 }
 .navlist li a{
     text-decoration: none;
+    
    
 }
 
@@ -74,7 +79,7 @@ border-top-color: #0065fc;
         
 }
 .liste2{  
-    color: black; 
+    color: #0065fc; 
     
 }
 .menu ul{
@@ -252,24 +257,22 @@ p{
     cursor: pointer;
     transform: scale(1.01);
 }
-.bloc1:hover{
+.entrebloc:hover{
     cursor: pointer;
     transform: scale(1.04);
 }
-.bloc2:hover{
-    transform: scale(1.04);
-}
+
 h2{
     margin-top: 25px;
-    margin-left: 15Px;
+    margin-left: 20Px;
     margin-bottom: 25px;
-    font-size: 18px;
+    font-size: 22px;
 }
 .colorBleu{
     color:#0065FC
 }
 .entrebloc{
-    width: 200px;
+    width: 257px;
     background-color: white;
     border-radius: 10px;
     margin-block-start: inherit;
@@ -290,7 +293,7 @@ h2{
 
 
 .blockhebergement{
-    height: 523px;
+    height: 638px;
     
     width: 100%;
     align-content: center;
@@ -307,7 +310,7 @@ h2{
 
 .texthebergement {
     padding: 1px;
-    font-size: 10px;
+    font-size: 13px;
     text-align: inherit;
     white-space: inherit;
     margin-top: -11px;
@@ -321,9 +324,9 @@ h3{
 
  .entrebloc .imghebergement{
     background-size: cover;
-    background-position:center;
-    width: 170px;
-    height: 70px;
+    background-position: center;
+    width: 227px;
+    height: 118px;
     border-radius: 10px 15px 0 0;
     padding: 12px;
     border-style: solid;
@@ -364,6 +367,10 @@ h3{
 }
 
 /*populaire*/
+.titrepop{
+    align-items: flex-start;
+    margin-right: 98px;
+}
 .blocpop2:hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -372,10 +379,12 @@ h3{
      margin-right:  199px; 
  }
 .blockpopulaire{
+    height: 616px;
     flex-direction: column;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     padding: 0 12px 24px 12px;
     border-radius: 10px;
     background-color: #F2F2F2;
@@ -385,28 +394,28 @@ h3{
     display: grid;
     grid-area: none;
     grid-row: auto;
+    width: 154px;
     padding: 18px;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: -9px;
     margin-bottom: -12px;
     padding-top: 20px;
 }
 .blocpop2{
-    
- display: grid;
-    grid-template-columns: auto;
-    justify-content: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    align-items:initial;
     background-color: white;
     border-radius: 20px;
-    
 }
 
 .imgPopulaires1 {
     background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 150px;
-    height: 113px;
+    width: 133px;
+    height: 147px;
     border-radius: 20px 0 0 20px;
     padding: 0px;
     object-fit: cover;
@@ -417,8 +426,8 @@ h3{
     background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 150px;
-    height: 113px;
+    width: 133px;
+    height: 147px;
     border-radius: 20px 0 0 20px;
     padding: 0px;
     object-fit: cover;
@@ -429,8 +438,8 @@ h3{
     background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    width: 150px;
-    height: 113px;
+    width: 133px;
+    height: 147px;
     border-radius: 20px 0 0 20px;
     padding: 0px;
     object-fit: cover;
@@ -547,13 +556,13 @@ background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3
 
 /* footer */
 .footer {
-    height: 200px;
+    height: 208px;
+    width: 101%;
     margin-top: 300px;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
-align-items: center;
-flex-direction: inherit;
+    align-items: center;
+    flex-direction: inherit;
  }
 
 .titref{
@@ -967,19 +976,17 @@ margin-right: 200px
         .titrepop{
             margin-left: 123px;
         }
-        .blocpop2{
-            width: 491px;
-            }
+        
         
             .imgPopulaires1{
                 margin: 3px;
-                height: 181px;
+                height: 195px;
                 }
             .imgPopulaires2{margin: 3px;
-                height: 181px;
+                height: 227px;
                 }
             .imgPopulaires3{margin: 3px;
-                height: 181px;
+                height: 195px;
                 }
         
         .textpopulaire{
@@ -990,12 +997,14 @@ margin-right: 200px
             
         .footer{
             display: flex;
-            height: 246px;
-            align-content: space-around;
+    height: 286px;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;;
         }
         .titref{
-            height: 275px;
-            margin: 0px;
+            height: 187px;
+            margin: 24px;
             padding: 0px;
         }
         .dlienfooter{
