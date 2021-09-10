@@ -759,7 +759,7 @@ margin-right: 200px
     background-color: white;
     margin: 0px;
     flex-wrap: wrap;
-    flex-direction: center;
+    align-items:center;
     align-content: space-between;
     }
     
