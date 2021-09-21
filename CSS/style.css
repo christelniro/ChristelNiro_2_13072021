@@ -356,7 +356,7 @@ h3 {
 }
 .blocpop2:hover {
   cursor: pointer;
-  /*transform: scale(1.1);*/
+  transform: scale(1.01);
 }
 .iconpop i {
   margin-right: 199px;
