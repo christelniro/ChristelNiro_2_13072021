@@ -17,7 +17,7 @@
             <img src="images/logo/Reservia@3x.png" id=logoreservia alt="logo" />
             <a href="#" class="nav2 mobile"><strong>S'inscrire</strong></a>
             <div class="menu">
-                <nav>
+                <nav class="navheader">
             <ul class="navlist">
                 <li class="liste2 hebergement "><a href="#Hebergement">Hébergements</a></li>
                 <li class="liste2  "><a href="#activite1">Activités</a></li>
@@ -32,22 +32,25 @@
     
     
     <!--barre de recherche-->
-        <form>
+        <form class="form">
+            <div class="formbloc">
             <i id="localisation" class="fas fa-map-marker-alt"></i>
             <input type="search" id="search" name="search" placeholder="Marseille,France" />
             <input type="submit" id="recherche" value="Rechercher" />
             <button class="buttonrecherche buttonrecherche2">Recherche</button>
             <button class="loupe loupe2">
             <i class="fas fa-search" aria-hidden="true"></i></button>
+        </div>
         </form>
 
 
         </section>
         <!--barre de navigation-->
         
-<nav>
+<nav class="blocfiltre">
+    <h2 class="filtre" >Filtres</h2>
             <ul class="menubar"> 
-                <li class="Filtre"> Filtres</li>  
+                 
                 <li class="logos"><a href="#"><i class="fas fa-money-bill-wave logofiltre"></i><strong>Économique</strong></a></li>
                 <li class="logos"><a href="#"><i class="fas fa-child logofiltre"></i><strong>Familial</strong></a></li>
                 <li class="logos"><a href="#"><i class="fas fa-heart logofiltre"></i><strong>Romantique</strong></a></li>
@@ -159,7 +162,7 @@
                     <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 </div>
                 <div class="blocpop2">
-                    <div class="imgPopulaires1"></div>
+                    <div class="imgPopulaires1 imgPopulaires"></div>
                         <div class="textpopulaire">
                             <h3>Hôtel le soleil du matin</h3>
                             <span>Nuit à partir de 128€</span>
@@ -174,7 +177,7 @@
                     
                 </div>
                 <div class="blocpop2">
-                    <div class="imgPopulaires2"> </div>
+                    <div class="imgPopulaires2 imgPopulaires"></div>
                         <div class="textpopulaire">
                             <h3>Au coeur de l'eau chambre d'hôtes</h3>
                             <span>Nuit à partir de 71€</span>
@@ -187,7 +190,7 @@
                         </div>
                 </div>
                 <div class="blocpop2">
-                    <div class="imgPopulaires3"></div>
+                    <div class="imgPopulaires3 imgPopulaires"></div>
                         <div class="textpopulaire">
                             <h3>Hotel le soleil du matin </h3>
                             <span>Nuit à partir de 128e</span>
@@ -206,45 +209,45 @@
         <section class="activites">
             <h2 id="activite1">Activité à Marseille</h2>
             <div class="titreact">
-                <div class="blocactivite">
-                    <div class="imageactivite1"></div>
+                <div class="blocactivite blocA">
+                    <div class="imageactivite1 imageactivite"></div>
                     <div class="imgtitre">
                         <h3>Vieux Port</h3>
                     </div>
                 </div>
 
-                <div class="blocactivite2">
-                    <div class="boxactivite2">
-                        <div class="imageactivite2"></div>
+                <div class="blocactivite2 ">
+                    <div class="boxactivite2 blocA">
+                        <div class="imageactivite2 imageactivite"></div>
                         <div class="imgtitre">
                             <h3>Fort de Pomégues</h3>
                         </div>
                     </div>
 
-                    <div class="boxactivite2">
-                        <div class="imageactivite3"></div>
+                    <div class="boxactivite2 blocA">
+                        <div class="imageactivite3 imageactivite"></div>
                         <div class="imgtitre">
                             <h3>île du frioul</h3>
                         </div>
                     </div>
                 </div>
-                <div class="blocactivite">
-                    <div class="imageactivite4"></div>
+                <div class="blocactivite blocA">
+                    <div class="imageactivite4 imageactivite"></div>
                     <div class="imgtitre">
                         <h3>Parc National des Calanques</h3>
                     </div>
                 </div>
 
-                <div class="blocactivite2">
-                    <div class="boxactivite2">
-                        <div class="imageactivite5"></div>
+                <div class="blocactivite2 ">
+                    <div class="boxactivite2 blocA">
+                        <div class="imageactivite5 imageactivite"></div>
                         <div class="imgtitre">
                             <h3>Notre-Dame-de-la-Garde</h3>
                         </div>
                     </div>
 
-                    <div class="boxactivite2">
-                        <div class="imageactivite6"></div>
+                    <div class="boxactivite2 blocA">
+                        <div class="imageactivite6 imageactivite"></div>
                         <div class="imgtitre">
                             <h3>Parc Longchamps</h3>
                         </div>
